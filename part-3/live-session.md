@@ -41,7 +41,8 @@ Seguir el wizard y crear un repositorio.
 URL -> http://jenkins.acme.com/
 
 1) `kubectl get pods`
-2) `kubectl logs -f jenkins-xxxxx`
+2) `kubectl logs -f -l service=jenkins`
+
 Extraer el token
 
 Seguir el wizard.
@@ -54,9 +55,9 @@ Plugins adicionales:
 
 ### Configurar Kubernetes
 
-Jenkins > Configuration
+Jenkins administration > Configure nodes > Configure clouds
 
-Add cloud:
+Add new Kubernetes cloud:
 - Kubernetes Namespace: default
 - Jenkins URL: http://jenkins.default:8000
 - Crear credenciales de tipo Kubernetes
