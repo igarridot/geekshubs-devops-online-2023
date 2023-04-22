@@ -12,7 +12,8 @@ Seleccionar SQLlite como base de datos y utilizar una ruta absoluta:
 
 Configurar URL del servicio:
 
-![Gogs URL config](../../../img/gogs_domain_config.png)
+![Gogs URL config](../../../img/gogs_domain_config_dist_1.png)
+![Gogs URL config](../../../img/gogs_domain_config_dist_2.png)
 
 Configurar cuenta de administrador:
 
