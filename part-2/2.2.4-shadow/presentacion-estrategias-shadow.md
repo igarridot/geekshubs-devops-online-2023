@@ -79,8 +79,8 @@ Utilizamos `goreplay` como _sidecar_ de nginx para hacer _forward_ de las reques
 
 Veamos el shadow en acción:
 
-- `kubectl logs -f fourth-app-v2-xxxx`
-- `kubectl logs -f fourth-app-v1-xxxx`
+- `kubectl logs -f -l app=fourth-app -l version=v1`
+- `kubectl logs -f -l app=fourth-app -l version=v2`
 
 y hagamos peticiones:
 
