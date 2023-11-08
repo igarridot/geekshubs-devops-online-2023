@@ -2,8 +2,8 @@
 
 ```
 Profesor: Iván Garrido Tamarit
-Primera sesión: 2023-04-28
-Segunda sesión: 2023-04-29
+Primera sesión: 2023-11-10
+Segunda sesión: 2023-11-11
 ```
 
 ## Agenda
